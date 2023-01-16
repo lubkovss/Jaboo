@@ -185,7 +185,7 @@ body {
   position: relative;
 }
 .main__subtitle span::after {
-  content: url("/img/decore-top-title.png");
+  content: url("../img/decore-top-title.png");
   position: absolute;
   bottom: 0;
   left: -30px;
@@ -256,7 +256,7 @@ body {
   position: relative;
 }
 .services__subtitle::after {
-  content: url("/img/services/decor-dot.svg");
+  content: url("../img/services/decor-dot.svg");
   position: absolute;
   top: -55px;
   right: -75px;
@@ -336,7 +336,7 @@ body {
   position: relative;
 }
 .destinations__items::after {
-  content: url("/img/destinations-Decore.svg");
+  content: url("../img/destinations-Decore.svg");
   position: absolute;
   top: 230px;
   right: -35px;
@@ -448,7 +448,7 @@ body {
   position: relative;
 }
 .card__booking::after {
-  content: url("/img/Booking/decor-booking.png");
+  content: url("../img/Booking/decor-booking.png");
   position: absolute;
   top: -230px;
   right: -250px;
@@ -596,22 +596,24 @@ body {
 } */
 
 .comments__slider-next::after {
-  content: url("/img/arrow down.svg");
+  content: url("../img/arrow down.svg");
   color: #3e2e4d;
   position: absolute;
   top: 300px;
   right: 5px;
   height: 7px;
+  cursor: pointer;
 }
 
 .comments__slider-prev::after {
-  content: url("/img/arrow down.svg");
+  content: url("../img/arrow down.svg");
   color: #3e2e4d;
   position: absolute;
   top: 200px;
   right: 5px;
   height: 7px;
   transform: rotate(180deg);
+  cursor: pointer;
 }
 
 .swiper-pagination {
@@ -658,14 +660,14 @@ body {
   position: relative;
 }
 .contact__container::before {
-  content: url("/img/subscribe-decore.png");
+  content: url("../img/subscribe-decore.png");
   position: absolute;
   bottom: 0;
   left: 25px;
   opacity: 0.1;
 }
 .contact__container::after {
-  content: url("/img/subscribe-decore02.png");
+  content: url("../img/subscribe-decore02.png");
   position: absolute;
   top: 0;
   right: 0;
@@ -675,7 +677,7 @@ body {
   position: relative;
 }
 .contact__form::before {
-  content: url("/img/subscribe-decore-leter.png");
+  content: url("../img/subscribe-decore-leter.png");
   position: absolute;
   width: 70px;
   height: 70px;
@@ -683,7 +685,7 @@ body {
   right: -26px;
 }
 .contact__form::after {
-  content: url("/img/subscribe-decore03.png");
+  content: url("../img/subscribe-decore03.png");
   position: absolute;
   width: 153px;
   height: 166px;
